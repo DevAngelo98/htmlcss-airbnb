@@ -5,16 +5,17 @@
 }
 
 .container{
- width: 100%;
+ width: 90%;
  height: 100vh;
+ margin: auto;
 }
 
 .imagecontainer{
  background-size: cover;
  background-repeat: no-repeat;
  position: relative;
- width: 700px;
- height: 423px;;
+ width: 100%;
+ height: 100%;
  margin: 10px auto;
 }
 
