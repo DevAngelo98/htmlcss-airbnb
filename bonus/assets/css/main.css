@@ -48,13 +48,13 @@ span{
  margin: 2px 2px;
  font-style: oblique;
  font-family: monospace;
- font-size: 15px;
+ font-size: 1.3vw;
  text-shadow: 3px 3px 3px black;
 }
 
 p{
  color: white;
- font-size: 30px;
+ font-size: 3vw;
  font-family: cursive;
  position: absolute;
  top: 50%;
