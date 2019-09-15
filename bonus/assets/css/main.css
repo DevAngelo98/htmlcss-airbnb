@@ -1,0 +1,53 @@
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+.container{
+ width: 100%;
+ height: 100vh;
+ margin: auto;
+}
+
+.imagecontainer{
+ background-size: cover;
+ background-repeat: no-repeat;
+ position: relative;
+ width: 50%;
+ height: 56%;
+ margin: 10px auto;
+ border: black 4px double;
+}
+
+.layover{
+ position: absolute;
+ top: 0;
+ left: 0;
+ width: 100%;
+ height: 100%;
+ background: rgba(0, 0, 0, 0.5);
+}
+
+.roma{
+ background-image: url(../img/colosseo.jpg);
+}
+
+p{
+ color: white;
+ font-size: 30px;
+ font-family: cursive;
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+ text-shadow: 3px 3px 3px black;
+}
+
+.copenaghen{
+ background-image: url(../img/copenaghen.jpg);
+}
+
+.tokyo{
+ background-image: url(../img/tokyo.jpg);
+}
